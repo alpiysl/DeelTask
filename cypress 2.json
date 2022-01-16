@@ -1,0 +1,31 @@
+{
+    "execTimeout":70000,
+    "reporter" : "mochawesome",
+    "reporterOptions" : {
+        "reporDir" : "cypress/reports",
+        "reportFilename" : "report",
+        "overwrite" : true,
+        "html" : true,
+        "json" : true,
+        "charts" : true 
+    },
+    "env" : {
+        "userName" : "alp5191.2@gmail.com",
+        "passWord" : "Test123.123",
+        "url" : "https://app.deel.training/",
+        "fixedUrl" : "https://app.deel.training/create/fixed",
+        "contractName" : "Alpi",
+        "contry" : "United States",
+        "state" : "Colorado",
+        "jobTitle" : "Quality Engineer",
+        "level" : "Mid",
+        "scope" : "test",
+        "currency" : "GBP - British Pound",
+        "pay" : 1000,
+        "freq" : "Weekly",
+        "clause" : "test",
+        "finalPage" : "https://app.deel.training/contract/"
+    },
+    "baseUrl" : "https://app.deel.training/login"
+    
+}
